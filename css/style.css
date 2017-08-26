@@ -1,0 +1,33 @@
+/*Todo: Arrumar a StyleSheet*/
+html, body, .capa{
+    height: 100%;
+}
+
+.capa{
+    border: 1px solid red;
+    display: table;
+    width: 100%;
+}
+
+
+.texto-capa{
+    text-align: center;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+/*--------Tipografia-------*/
+#textInit{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Comic Sans MS";
+}
+
+.tip {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
