@@ -3580,7 +3580,7 @@ tbody.collapse.show {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .--nav .nav-link:hover {
   color: rgba(0, 0, 0, 0.7);
 }
 

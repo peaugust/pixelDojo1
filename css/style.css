@@ -1,33 +1,82 @@
-/*Todo: Arrumar a StyleSheet*/
-html, body, .capa{
+/*
+*@author Pedro Rodrigues
+ */
+
+/* =================== Layout ======================= */
+body{
+    background: url("../img/men.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#space{
+    margin-top: 35px;
+}
+.section2{
+    background-color: #0d3a33;
+    height: 75%;
+    display: table;
+    width: 100%;
+}
+.btn-new{
+    color: white;
+    background-color: red;
+    border-radius: 15%;
+}
+
+.btn-new:active:hover{
+    color: white;
+    background-color: darkred;
+    border-color: white;
+}
+
+/* ----- Navbar ----- */
+html, body, .capa,.capa2{
     height: 100%;
 }
 
+
+/* ----- Imagem de Capa -----*/
 .capa{
     border: 1px solid red;
     display: table;
     width: 100%;
 }
 
+.texto-capa {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
 
-.texto-capa{
+.colunas{
     text-align: center;
     color: black;
     display: table-cell;
     vertical-align: middle;
-
 }
-
 
 /*--------Tipografia-------*/
-#textInit{
-    font-size: 100px;
-    font-weight: 900;
-    font-family: "Comic Sans MS";
-}
 
 .tip {
-    font-size: 50px;
+    font-size: 90px;
+    margin-bottom: 55px;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
+.title{
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.capa2{
+    width: 100px;
+    display: table;
+
+}
+
+
