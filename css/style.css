@@ -16,7 +16,12 @@ hr {
     width: 65px;
     margin-top: -15px;
 }
-
+#margin{
+    margin-left: 630px;
+}
+#color{
+    color: black;
+}
 #space{
     margin-top: 35px;
 }
@@ -75,7 +80,7 @@ hr {
 }
 
 /* ----- Navbar ----- */
-html, body, .capa,.capa2{
+html, body, .capa,.capa2, section2, section3{
     height: 100%;
 }
 
