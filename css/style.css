@@ -9,12 +9,38 @@ body{
     background-attachment: scroll;
 }
 
+hr {
+    color: #f00;
+    background-color: #f00;
+    height: 3px;
+    width: 65px;
+    margin-top: -15px;
+}
+
 #space{
     margin-top: 35px;
 }
-.section2{
+#section2{
     background-color: #0d3a33;
     height: 75%;
+    display: table;
+    width: 100%;
+}
+#section3{
+    background-color: white;
+    height: 75%;
+    display: table;
+    width: 100%;
+}
+#imgSection4 {
+    height: 25%;
+    background: url("../img/metro.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#section4{
+    background-color: cyan;
+    height: 50%;
     display: table;
     width: 100%;
 }
@@ -29,6 +55,24 @@ body{
     background-color: darkred;
     border-color: white;
 }
+.btn-new2{
+    color: black;
+    background-color: orange;
+    border-radius: 15%;
+}
+
+.btn-new2:active:hover{
+    color: black;
+    background-color: orangered;
+    border-color: white;
+    border-radius: 15%;
+}
+
+.colunas{
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+}
 
 /* ----- Navbar ----- */
 html, body, .capa,.capa2{
@@ -38,7 +82,8 @@ html, body, .capa,.capa2{
 
 /* ----- Imagem de Capa -----*/
 .capa{
-    border: 1px solid red;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: table;
     width: 100%;
 }
@@ -46,13 +91,6 @@ html, body, .capa,.capa2{
 .texto-capa {
     text-align: center;
     color: white;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.colunas{
-    text-align: center;
-    color: black;
     display: table-cell;
     vertical-align: middle;
 }
@@ -67,16 +105,19 @@ html, body, .capa,.capa2{
 }
 
 .title{
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: -5px;
     margin-bottom: 40px;
     font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: Constantia;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.capa2{
-    width: 100px;
-    display: table;
+
+.glyph-icon{
+    width: 90px;
+    height: 90px;
 
 }
-
 
