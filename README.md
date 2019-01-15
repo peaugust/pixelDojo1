@@ -1,3 +1,3 @@
 # pixelDojo1
 Code Dojo de Bootstrap - PixelEJ
-Com base em um exemplo ser? feita uma p?gina id?ntica com o objetivo de aprender mais sobre a ferramenta.
+Com base em um exemplo de página web devera ser feita uma página idêntica com o objetivo de adquirir mais conhecimentos sobre Boostrap.
